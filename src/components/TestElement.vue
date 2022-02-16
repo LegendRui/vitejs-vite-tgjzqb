@@ -5,7 +5,7 @@
         <CustomHeader />
       </el-header>
       <el-container>
-        <el-aside width="200px">Aside</el-aside>
+        <el-aside width="200px"> <CustomAside /></el-aside>
         <el-container>
           <el-main>Main</el-main>
         </el-container>
@@ -16,6 +16,7 @@
 
 <script lang="ts" setup>
 import CustomHeader from './CustomHeader.vue';
+import CustomAside from './CustomAside.vue';
 </script>
 
 <style scoped>
